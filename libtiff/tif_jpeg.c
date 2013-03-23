@@ -85,6 +85,7 @@ int TIFFReInitJPEG_12( TIFF *tif, int scheme, int is_encode );
 # define HAVE_BOOLEAN            /* prevent jmorecfg.h from redefining it */
 #endif
 
+#define INT32 int32
 #include "jpeglib.h"
 #include "jerror.h"
 

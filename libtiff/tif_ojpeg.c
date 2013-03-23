@@ -214,6 +214,7 @@ static const TIFFField ojpegFields[] = {
 # define HAVE_BOOLEAN            /* prevent jmorecfg.h from redefining it */
 #endif
 
+#define INT32 int32
 #include "jpeglib.h"
 #include "jerror.h"
 
