@@ -114,7 +114,7 @@
 #define HAVE_PTHREAD 1
 
 /* Define to 1 if you have the <search.h> header file. */
-/* #undef HAVE_SEARCH_H */
+#define HAVE_SEARCH_H 1
 
 /* Define to 1 if you have the `setmode' function. */
 /* #undef HAVE_SETMODE */
